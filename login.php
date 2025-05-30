@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($user['role'] === 'admin') {
                 header('Location: admin.php');
             } else {
-                header('Location: dashboard.php');
+                header('Location: authorized.php');
             }
             exit;
         } else {

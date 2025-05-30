@@ -30,7 +30,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $password_hash
         ]);
 
-        $success = true;
+        if (strpos($_SERVER['HTTP_HOST'], 'demoecz.demo') !== false) {
+            header('Location: index.php');
+            exit;
+        } else {
+            $success = true;
+        }
     }
 }
 ?>

@@ -91,7 +91,6 @@ if (!is_admin()) {
     <meta charset="UTF-8" />
     <title>Панель администратора - Корочки.есть</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ENjdO4Dr2bkBIFxQpeoYz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
 </head>
 <body>
 <div class="container mt-4">
@@ -193,6 +192,5 @@ if (!is_admin()) {
     <?php endif; ?>
 <?php endif; ?>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+3oBO+z0I1p6jizoUksdQRVvoxMfoo" crossorigin="anonymous"></script>
 </body>
 </html>
